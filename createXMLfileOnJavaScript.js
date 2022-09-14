@@ -35,11 +35,12 @@ var tagList = [
     'PersonMiddleName1', // <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ВЛАДИМИРОВИЧ</PersonMiddleName>
     'PersonPost1', // <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
     'IssueDate1', // <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2021-06-09</IssueDate>
-
-
     'DocumentSignature2', // </DocumentSignature>
+    'Vessel1', // <Vessel>
 
-    'crewList2'
+    'Vessel2', // </Vessel>
+
+    'crewList2' // </CrewList>
 ];
 
 
@@ -58,6 +59,7 @@ var PersonName =  [`    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5
 var PersonMiddleName =  [`    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonMiddleName>`];
 var PersonPost =  [`    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonPost>`];
 var IssueDate =  [`    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</IssueDate>`];
+var Vessel =  [`  <Vessel>`, `  </Vessel>`];
 
 
 
@@ -164,9 +166,23 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     }
 
 
-
+    // </DocumentSignature>
     if (tagsByIndex === 'DocumentSignature2') {
         tagsByIndex = DocumentSignature;
+        exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
+    }
+
+    // <Vessel>
+    if (tagsByIndex === 'Vessel1') {
+        tagsByIndex = Vessel;
+        exampleData = exampleData + tagsByIndex[0].trimEnd()  + '\n';
+    }
+
+
+
+    // </Vessel>
+    if (tagsByIndex === 'Vessel2') {
+        tagsByIndex = Vessel;
         exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
     }
 
