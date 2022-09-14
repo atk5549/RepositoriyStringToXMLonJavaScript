@@ -12,18 +12,26 @@ var dataFROMgrids = [
     'false',
     '25',
     '0',
+    'ОСТРОГОРСКИЙ',
+    'ДМИТРИЙ'
 
 ];
 
 
 var tagList = [
-    'crewList1',
-    'DocumentID1',
-    'LanguageCode1',
+    'crewList1', // <CrewList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003205E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.16.0">
+    'DocumentID1', // <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">539b957b-9622-4d31-89cc-81e3ecd171e9</DocumentID>
+    'LanguageCode1', // <LanguageCode>RU</LanguageCode>
     'DeparturePort1', // <DeparturePort>ЮКЭ (ИЭЗ РФ)</DeparturePort>
     'ArrivalIndicator1', // <ArrivalIndicator>false</ArrivalIndicator>
     'RUPersonnel1', // <RUPersonnel>25</RUPersonnel>
     'ForeignPersonnel1', // <ForeignPersonnel>0</ForeignPersonnel>
+    'DocumentSignature1', // <DocumentSignature>
+    'PersonSurname1', // <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ОСТРОГОРСКИЙ</PersonSurname>
+    'PersonName', // <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+
+
+    'DocumentSignature2', // </DocumentSignature>
 
     'crewList2'
 ];
@@ -39,6 +47,12 @@ var DeparturePort =  [`  <DeparturePort>`, `</DeparturePort>`];
 var ArrivalIndicator =  [`  <ArrivalIndicator>`, `</ArrivalIndicator>`];
 var RUPersonnel =  [`  <RUPersonnel>`, `</RUPersonnel>`];
 var ForeignPersonnel =  [`  <ForeignPersonnel>`, `</ForeignPersonnel>`];
+var PersonSurname =  [`    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</ForeignPersonnel>`];
+var PersonName =  [`    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonName>`];
+
+
+
+var DocumentSignature =  [`  <DocumentSignature>`, `  </DocumentSignature>`];
 
 
 
@@ -65,20 +79,22 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
-           
+      
+    // <DeparturePort>ЮКЭ (ИЭЗ РФ)</DeparturePort>
     if (tagsByIndex === 'DeparturePort1') {
         tagsByIndex = DeparturePort
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
 
+    // <ArrivalIndicator>false</ArrivalIndicator>
     if (tagsByIndex === 'ArrivalIndicator1') {
         tagsByIndex = ArrivalIndicator
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
 
-
+    // <RUPersonnel>25</RUPersonnel>
     if (tagsByIndex === 'RUPersonnel1') {
         tagsByIndex = RUPersonnel
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
@@ -86,14 +102,37 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     }
 
 
-
+    // <ForeignPersonnel>0</ForeignPersonnel>
     if (tagsByIndex === 'ForeignPersonnel1') {
         tagsByIndex = ForeignPersonnel
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
 
+    // <DocumentSignature>
+    if (tagsByIndex === 'DocumentSignature1') {
+        tagsByIndex = DocumentSignature;
+        exampleData = exampleData + tagsByIndex[0].trimEnd()  + '\n';
+    }
 
+
+
+    // <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ОСТРОГОРСКИЙ</PersonSurname>
+    if (tagsByIndex === 'PersonSurname1') {
+        tagsByIndex = PersonSurname
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+
+
+
+
+
+    if (tagsByIndex === 'DocumentSignature2') {
+        tagsByIndex = DocumentSignature;
+        exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
+    }
 
 
 
