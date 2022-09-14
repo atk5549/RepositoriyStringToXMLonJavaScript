@@ -4,25 +4,36 @@
 */
 
 
-var dataFROMgrids = ['Vasya1', 'Vasya2', 'vasya3'];
+var dataFROMgrids = [
+
+    '539b957b-9622-4d31-89cc-81e3ecd171e9',
+    'RU',
+    'ЮКЭ (ИЭЗ РФ)',
+    'false',
+    '25',
+    '0',
+
+];
 
 
 var tagList = [
-    'BillofLading1',
+    'crewList1',
     'DocumentID1',
     'LanguageCode1',
-    'BillofLadingId1',
-    'BillofLading2'
+    'DeparturePort1', // <DeparturePort>ЮКЭ (ИЭЗ РФ)</DeparturePort>
+    'ArrivalIndicator1', // <ArrivalIndicator>false</ArrivalIndicator>
+    'crewList2'
 ];
 
 
 
 
 let inputDataToTag;
-var BillofLading = [`<BillofLading xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003202E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:BillofLading:5.19.0">`, `</BillofLading>`];
+var crewList = [`<CrewList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003205E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.16.0">`, `</CrewList>`];
 var DocumentID = [`  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</DocumentID>`];
 var LanguageCode = [`  <LanguageCode>`, `</LanguageCode>`];
-var BillofLadingId =  [`  <BillofLadingId>`, `</BillofLadingId>`];
+var DeparturePort =  [`  <DeparturePort>`, `</DeparturePort>`];
+var ArrivalIndicator =  [`  <ArrivalIndicator>`, `</ArrivalIndicator>`];
 
 
 
@@ -32,8 +43,8 @@ let i = 0;
 for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     var tagsByIndex = tagList[indexTags]
 
-    if (tagsByIndex === 'BillofLading1') {
-        tagsByIndex = BillofLading
+    if (tagsByIndex === 'crewList1') {
+        tagsByIndex = crewList
         exampleData = exampleData + tagsByIndex[0].trimEnd() + '\n'
     }
 
@@ -49,14 +60,24 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         i++
     }
            
-    if (tagsByIndex === 'BillofLadingId1') {
-        tagsByIndex = BillofLadingId
+    if (tagsByIndex === 'DeparturePort1') {
+        tagsByIndex = DeparturePort
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
 
-    if (tagsByIndex === 'BillofLading2') {
-        tagsByIndex = BillofLading
+    if (tagsByIndex === 'ArrivalIndicator1') {
+        tagsByIndex = ArrivalIndicator
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+
+
+
+
+    if (tagsByIndex === 'crewList2') {
+        tagsByIndex = crewList
         exampleData = exampleData + tagsByIndex[1].trimEnd()
     }
    
