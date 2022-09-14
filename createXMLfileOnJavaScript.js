@@ -22,6 +22,9 @@ var tagList = [
     'LanguageCode1',
     'DeparturePort1', // <DeparturePort>ЮКЭ (ИЭЗ РФ)</DeparturePort>
     'ArrivalIndicator1', // <ArrivalIndicator>false</ArrivalIndicator>
+    'RUPersonnel1', // <RUPersonnel>25</RUPersonnel>
+    'ForeignPersonnel1', // <ForeignPersonnel>0</ForeignPersonnel>
+
     'crewList2'
 ];
 
@@ -34,6 +37,9 @@ var DocumentID = [`  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10
 var LanguageCode = [`  <LanguageCode>`, `</LanguageCode>`];
 var DeparturePort =  [`  <DeparturePort>`, `</DeparturePort>`];
 var ArrivalIndicator =  [`  <ArrivalIndicator>`, `</ArrivalIndicator>`];
+var RUPersonnel =  [`  <RUPersonnel>`, `</RUPersonnel>`];
+var ForeignPersonnel =  [`  <ForeignPersonnel>`, `</ForeignPersonnel>`];
+
 
 
 
@@ -68,6 +74,21 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
 
     if (tagsByIndex === 'ArrivalIndicator1') {
         tagsByIndex = ArrivalIndicator
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+
+    if (tagsByIndex === 'RUPersonnel1') {
+        tagsByIndex = RUPersonnel
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+
+
+    if (tagsByIndex === 'ForeignPersonnel1') {
+        tagsByIndex = ForeignPersonnel
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
