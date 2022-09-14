@@ -13,7 +13,10 @@ var dataFROMgrids = [
     '25',
     '0',
     'ОСТРОГОРСКИЙ',
-    'ДМИТРИЙ'
+    'ДМИТРИЙ',
+    'ВЛАДИМИРОВИЧ',
+    'КАПИТАН',
+    '2021-06-09'
 
 ];
 
@@ -28,7 +31,10 @@ var tagList = [
     'ForeignPersonnel1', // <ForeignPersonnel>0</ForeignPersonnel>
     'DocumentSignature1', // <DocumentSignature>
     'PersonSurname1', // <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ОСТРОГОРСКИЙ</PersonSurname>
-    'PersonName', // <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+    'PersonName1', // <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+    'PersonMiddleName1', // <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ВЛАДИМИРОВИЧ</PersonMiddleName>
+    'PersonPost1', // <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
+    'IssueDate1', // <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2021-06-09</IssueDate>
 
 
     'DocumentSignature2', // </DocumentSignature>
@@ -49,6 +55,9 @@ var RUPersonnel =  [`  <RUPersonnel>`, `</RUPersonnel>`];
 var ForeignPersonnel =  [`  <ForeignPersonnel>`, `</ForeignPersonnel>`];
 var PersonSurname =  [`    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</ForeignPersonnel>`];
 var PersonName =  [`    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonName>`];
+var PersonMiddleName =  [`    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonMiddleName>`];
+var PersonPost =  [`    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonPost>`];
+var IssueDate =  [`    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</IssueDate>`];
 
 
 
@@ -124,8 +133,35 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         i++
     }
 
+    // <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+    if (tagsByIndex === 'PersonName1') {
+        tagsByIndex = PersonName
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+    // <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ВЛАДИМИРОВИЧ</PersonMiddleName>
+    if (tagsByIndex === 'PersonMiddleName1') {
+        tagsByIndex = PersonMiddleName
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
 
 
+
+    // <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
+    if (tagsByIndex === 'PersonPost1') {
+        tagsByIndex = PersonPost
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+    // <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2021-06-09</IssueDate>
+    if (tagsByIndex === 'IssueDate1') {
+        tagsByIndex = IssueDate
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
 
 
 
