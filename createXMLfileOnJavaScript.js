@@ -177,8 +177,6 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         i++
     }
 
-
-
     // <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
     if (tagsByIndex === 'PersonPost1') {
         tagsByIndex = PersonPost
@@ -192,7 +190,6 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
-
 
     // </DocumentSignature>
     if (tagsByIndex === 'DocumentSignature2') {
@@ -220,7 +217,6 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         i++
     }
 
-
     // <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">643</NationalityCode>
     if (tagsByIndex === 'NationalityCode1') {
         tagsByIndex = NationalityCode
@@ -234,8 +230,6 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
     }
 
-
-    
     // <Sailing>
     if (tagsByIndex === 'Sailing1') {
         tagsByIndex = Sailing;
@@ -255,14 +249,14 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
-
-
-
+    
     // </Sailing>
     if (tagsByIndex === 'Sailing2') {
         tagsByIndex = Sailing;
         exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
     }
+
+    //----------- здесь будет цикл на экипаж
 
 
     // </CrewList>
