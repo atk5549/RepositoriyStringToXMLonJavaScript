@@ -1,0 +1,294 @@
+<DeclarationCrew xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003307E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:DeclarationCrew:5.14.5">
+  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">02af2449-a234-402a-bad9-2323d3b66808</DocumentID>
+  <ShipName>КАПИТАН ПРЯХА</ShipName>
+  <NationalityVessel>РОССИЯ</NationalityVessel>
+  <ArrivalPort>БМЭ (ИЭЗ РФ)</ArrivalPort>
+  <DeparturePort>Владивосток (РФ)</DeparturePort>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Цаюк</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дмитрий</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павлович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Капитан</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Кукушкин</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгий</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">СПКМ</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Филиппов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владиславович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2ПКМ</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Шамраев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Николаевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">3ПКМ</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сингур</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ПКРЭ</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Веревкин</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дмитрий</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Геннадьевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Старший механик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Макаров</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Вячеслав</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Гендрихович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2-й механик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Корнеев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Константин</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Викторович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2-й механик - Дублер</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Стоянов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Игорь</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Васильевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">3-й механик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Доков</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатолий</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатольевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">4-й механик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Куренев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Юрьевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электромеханик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Болсоев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгиевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электромеханик - Дублер</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Лапшин</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Виктор</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дорофеевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Рефмеханик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатольевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Терловой</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергеевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Косоруков</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Алексей</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Евгеньевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Кузнецов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Андрей</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Николайчук</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анпилов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Валерий</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Симакин</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Максим</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Станиславович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электрик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Щекотов</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Трофим</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгиевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сипатров</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Боюн</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Никита</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Антонович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Исаев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владлен</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Валерьевич</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Тисленко</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Никита</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Якимовская</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Елена</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Тимофеевна</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Повар</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Криницына</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Марина</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Альбертовна</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Буфетчик</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CrewInfo>
+    <Subject>НЕТ</Subject>
+    <PersonSignature>
+      <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Колбышев</PersonSurname>
+      <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Олег</PersonName>
+      <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+      <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Практикант - Реф. машинист</PersonPost>
+      <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+    </PersonSignature>
+  </CrewInfo>
+  <CaptainSignature>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ЦАЮК</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ПАВЛОВИЧ</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
+    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+  </CaptainSignature>
+</DeclarationCrew>
