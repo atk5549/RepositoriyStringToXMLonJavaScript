@@ -18,7 +18,8 @@ var dataFROMgrids = [
     'КАПИТАН',
     '2021-06-09',
     'КАПИТАН ПРЯХА',
-    'ОСТРОГОРСКИЙ'
+    'ОСТРОГОРСКИЙ',
+    '643'
 
 ];
 
@@ -41,8 +42,12 @@ var tagList = [
     'Vessel1', // <Vessel>
     'Name1', // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">КАПИТАН ПРЯХА</Name>
     'Shipmaster1', // <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ЦАЮК</Shipmaster>
-
+    'NationalityCode1', // <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">643</NationalityCode>
     'Vessel2', // </Vessel>
+    'Sailing1', // <Sailing>
+
+
+    'Sailing2', // </Sailing>
 
     'crewList2' // </CrewList>
 ];
@@ -51,25 +56,34 @@ var tagList = [
 
 
 let inputDataToTag;
+
 var crewList = [`<CrewList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003205E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.16.0">`, `</CrewList>`];
+
 var DocumentID = [`  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</DocumentID>`];
 var LanguageCode = [`  <LanguageCode>`, `</LanguageCode>`];
 var DeparturePort =  [`  <DeparturePort>`, `</DeparturePort>`];
 var ArrivalIndicator =  [`  <ArrivalIndicator>`, `</ArrivalIndicator>`];
 var RUPersonnel =  [`  <RUPersonnel>`, `</RUPersonnel>`];
 var ForeignPersonnel =  [`  <ForeignPersonnel>`, `</ForeignPersonnel>`];
+
+var DocumentSignature =  [`  <DocumentSignature>`, `  </DocumentSignature>`];
 var PersonSurname =  [`    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</ForeignPersonnel>`];
 var PersonName =  [`    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonName>`];
 var PersonMiddleName =  [`    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonMiddleName>`];
 var PersonPost =  [`    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonPost>`];
 var IssueDate =  [`    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</IssueDate>`];
+
 var Vessel =  [`  <Vessel>`, `  </Vessel>`];
 var Name =  [`    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Name>`];
 var Shipmaster =  [`    <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Shipmaster>`];
+var NationalityCode =  [`    <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</NationalityCode>`];
+
+var Sailing =  [`  <Sailing>`, `  </Sailing>`];
+var DateSaling =  [`    <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Date>`];
+var NameSaling =  [`    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Name>`];
 
 
 
-var DocumentSignature =  [`  <DocumentSignature>`, `  </DocumentSignature>`];
 
 
 
@@ -199,17 +213,34 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     }
 
 
-
-
-
-
-
-
-
+    // <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">643</NationalityCode>
+    if (tagsByIndex === 'NationalityCode1') {
+        tagsByIndex = NationalityCode
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
 
     // </Vessel>
     if (tagsByIndex === 'Vessel2') {
         tagsByIndex = Vessel;
+        exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
+    }
+
+
+    
+    // <Sailing>
+    if (tagsByIndex === 'Sailing1') {
+        tagsByIndex = Sailing;
+        exampleData = exampleData + tagsByIndex[0].trimEnd()  + '\n';
+    }
+    
+    // --------here start
+
+
+
+    // </Sailing>
+    if (tagsByIndex === 'Sailing2') {
+        tagsByIndex = Sailing;
         exampleData = exampleData + tagsByIndex[1].trimEnd()  + '\n';
     }
 
