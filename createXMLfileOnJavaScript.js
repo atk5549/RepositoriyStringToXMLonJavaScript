@@ -99,17 +99,20 @@ let i = 0;
 for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     var tagsByIndex = tagList[indexTags]
 
+    // <CrewList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003205E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.16.0">
     if (tagsByIndex === 'crewList1') {
         tagsByIndex = crewList
         exampleData = exampleData + tagsByIndex[0].trimEnd() + '\n'
     }
 
+    // <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">539b957b-9622-4d31-89cc-81e3ecd171e9</DocumentID>
     if (tagsByIndex === 'DocumentID1') {
         tagsByIndex = DocumentID
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
         i++
     }
 
+    // <LanguageCode>RU</LanguageCode>
     if (tagsByIndex === 'LanguageCode1') {
         tagsByIndex = LanguageCode
         exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
@@ -262,7 +265,7 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
     }
 
 
-
+    // </CrewList>
     if (tagsByIndex === 'crewList2') {
         tagsByIndex = crewList
         exampleData = exampleData + tagsByIndex[1].trimEnd()
