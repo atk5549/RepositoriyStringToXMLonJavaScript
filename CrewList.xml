@@ -1,0 +1,444 @@
+<CrewList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentModeID="1003205E" xmlns="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.16.0">
+  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">539b957b-9622-4d31-89cc-81e3ecd171e9</DocumentID>
+  <LanguageCode>RU</LanguageCode>
+  <DeparturePort>Владивосток (РФ)</DeparturePort>
+  <ArrivalIndicator>false</ArrivalIndicator>
+  <RUPersonnel>28</RUPersonnel>
+  <ForeignPersonnel>0</ForeignPersonnel>
+  <DocumentSignature>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ЦАЮК</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ПАВЛОВИЧ</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
+    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2022-08-14</IssueDate>
+  </DocumentSignature>
+  <Vessel>
+    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">КАПИТАН ПРЯХА</Name>
+    <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ЦАЮК</Shipmaster>
+    <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">643</NationalityCode>
+  </Vessel>
+  <Sailing>
+    <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">2022-08-14</Date>
+    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ВЛАДИВОСТОК (РФ)</Name>
+  </Sailing>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Цаюк</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дмитрий</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павлович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Капитан</PersonPost>
+    <PersNumeric>1</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1967-12-19</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">76</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">7663296</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Кукушкин</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгий</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">СПКМ</PersonPost>
+    <PersNumeric>2</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1990-12-22</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">6957127</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Филиппов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владиславович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2ПКМ</PersonPost>
+    <PersNumeric>3</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1991-03-18</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">72</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">8228307</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Шамраев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Николаевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">3ПКМ</PersonPost>
+    <PersNumeric>4</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1982-04-06</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">1121015</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сингур</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ПКРЭ</PersonPost>
+    <PersNumeric>5</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Красноярский край</BirthPlace>
+    <DateofBirth>1959-10-27</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">0333708</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Веревкин</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дмитрий</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Геннадьевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Старший механик</PersonPost>
+    <PersNumeric>6</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Хабаровский край</BirthPlace>
+    <DateofBirth>1973-04-26</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">76</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">7646004</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Макаров</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Вячеслав</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Гендрихович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2-й механик</PersonPost>
+    <PersNumeric>7</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1970-07-03</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">76</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">2503381</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Корнеев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Константин</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Викторович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2-й механик - Дублер</PersonPost>
+    <PersNumeric>8</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1984-10-20</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">2587284</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Стоянов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Игорь</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Васильевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">3-й механик</PersonPost>
+    <PersNumeric>9</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Украина</BirthPlace>
+    <DateofBirth>1987-12-30</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">0585603</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Доков</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатолий</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатольевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">4-й механик</PersonPost>
+    <PersNumeric>10</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Украина</BirthPlace>
+    <DateofBirth>1973-01-05</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">65</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">9824663</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Куренев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Юрьевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электромеханик</PersonPost>
+    <PersNumeric>11</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Хабаровский край</BirthPlace>
+    <DateofBirth>1972-09-30</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">73</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">6990319</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Болсоев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергей</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгиевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электромеханик - Дублер</PersonPost>
+    <PersNumeric>12</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г.Улан-Удэ</BirthPlace>
+    <DateofBirth>1998-07-03</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">3377939</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Лапшин</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Виктор</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Дорофеевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Рефмеханик</PersonPost>
+    <PersNumeric>13</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1956-09-01</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">1049886</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Павел</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анатольевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>14</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1983-08-03</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">73</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">6562922</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Терловой</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сергеевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>15</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1996-10-05</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">72</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">5961007</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Косоруков</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Алексей</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Евгеньевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>16</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1977-02-11</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">0918819</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Кузнецов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Андрей</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>17</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1999-07-20</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">65</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">5632868</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Николайчук</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>18</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1998-03-05</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">4339236</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Анпилов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Валерий</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владимирович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Матрос</PersonPost>
+    <PersNumeric>19</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1992-02-22</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">1374143</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Симакин</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Максим</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Станиславович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Электрик</PersonPost>
+    <PersNumeric>20</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1999-08-20</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">3647680</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Щекотов</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Трофим</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Георгиевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+    <PersNumeric>21</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1999-12-28</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">1176338</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Сипатров</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александр</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Борисович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+    <PersNumeric>22</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1999-02-01</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">65</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">5172026</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Боюн</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Никита</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Антонович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+    <PersNumeric>23</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>2002-08-09</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">0587449</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Исаев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Владлен</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Валерьевич</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+    <PersNumeric>24</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>2000-03-25</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">9585232</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Тисленко</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Никита</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Моторист</PersonPost>
+    <PersNumeric>25</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Иркутская обл.</BirthPlace>
+    <DateofBirth>2001-01-03</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">65</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">6305464</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Якимовская</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Елена</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Тимофеевна</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Повар</PersonPost>
+    <PersNumeric>26</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1972-11-29</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">0599030</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Криницына</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Марина</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Альбертовна</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Буфетчик</PersonPost>
+    <PersNumeric>27</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>г. Владивосток</BirthPlace>
+    <DateofBirth>1964-01-11</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">66</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">1046391</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+  <CockpitPersonnel>
+    <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Колбышев</PersonSurname>
+    <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Олег</PersonName>
+    <PersonMiddleName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Александрович</PersonMiddleName>
+    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">Практикант - Реф. машинист</PersonPost>
+    <PersNumeric>28</PersNumeric>
+    <Nationality>RU</Nationality>
+    <BirthPlace>Приморский край</BirthPlace>
+    <DateofBirth>1987-02-11</DateofBirth>
+    <Document>
+      <IdentityCardName xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">ОЗП</IdentityCardName>
+      <IdentityCardSeries xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">75</IdentityCardSeries>
+      <IdentityCardNumber xmlns="urn:customs.ru:RUSCommonAggregateTypes:5.16.0">5225914</IdentityCardNumber>
+    </Document>
+  </CockpitPersonnel>
+</CrewList>
