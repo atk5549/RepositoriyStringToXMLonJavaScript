@@ -16,7 +16,9 @@ var dataFROMgrids = [
     'ДМИТРИЙ',
     'ВЛАДИМИРОВИЧ',
     'КАПИТАН',
-    '2021-06-09'
+    '2021-06-09',
+    'КАПИТАН ПРЯХА',
+    'ОСТРОГОРСКИЙ'
 
 ];
 
@@ -37,6 +39,8 @@ var tagList = [
     'IssueDate1', // <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2021-06-09</IssueDate>
     'DocumentSignature2', // </DocumentSignature>
     'Vessel1', // <Vessel>
+    'Name1', // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">КАПИТАН ПРЯХА</Name>
+    'Shipmaster1', // <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ЦАЮК</Shipmaster>
 
     'Vessel2', // </Vessel>
 
@@ -60,6 +64,8 @@ var PersonMiddleName =  [`    <PersonMiddleName xmlns="urn:customs.ru:CommonAggr
 var PersonPost =  [`    <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</PersonPost>`];
 var IssueDate =  [`    <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">`, `</IssueDate>`];
 var Vessel =  [`  <Vessel>`, `  </Vessel>`];
+var Name =  [`    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Name>`];
+var Shipmaster =  [`    <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Shipmaster>`];
 
 
 
@@ -177,6 +183,27 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         tagsByIndex = Vessel;
         exampleData = exampleData + tagsByIndex[0].trimEnd()  + '\n';
     }
+
+    // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">КАПИТАН ПРЯХА</Name>
+    if (tagsByIndex === 'Name1') {
+        tagsByIndex = Name
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+    // <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ЦАЮК</Shipmaster>
+    if (tagsByIndex === 'Shipmaster1') {
+        tagsByIndex = Shipmaster
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+
+
+
+
+
+
 
 
 
