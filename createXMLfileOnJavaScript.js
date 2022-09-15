@@ -16,10 +16,12 @@ var dataFROMgrids = [
     'ДМИТРИЙ',
     'ВЛАДИМИРОВИЧ',
     'КАПИТАН',
-    '2021-06-09',
+    '2022-08-14',
     'КАПИТАН ПРЯХА',
     'ОСТРОГОРСКИЙ',
-    '643'
+    '643',
+    '2022-08-14',
+    'ВЛАДИВОСТОК (РФ)'
 
 ];
 
@@ -32,6 +34,7 @@ var tagList = [
     'ArrivalIndicator1', // <ArrivalIndicator>false</ArrivalIndicator>
     'RUPersonnel1', // <RUPersonnel>25</RUPersonnel>
     'ForeignPersonnel1', // <ForeignPersonnel>0</ForeignPersonnel>
+
     'DocumentSignature1', // <DocumentSignature>
     'PersonSurname1', // <PersonSurname xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ОСТРОГОРСКИЙ</PersonSurname>
     'PersonName1', // <PersonName xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">ДМИТРИЙ</PersonName>
@@ -39,14 +42,16 @@ var tagList = [
     'PersonPost1', // <PersonPost xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">КАПИТАН</PersonPost>
     'IssueDate1', // <IssueDate xmlns="urn:customs.ru:CommonAggregateTypes:5.10.0">2021-06-09</IssueDate>
     'DocumentSignature2', // </DocumentSignature>
+
     'Vessel1', // <Vessel>
     'Name1', // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">КАПИТАН ПРЯХА</Name>
     'Shipmaster1', // <Shipmaster xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ЦАЮК</Shipmaster>
     'NationalityCode1', // <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">643</NationalityCode>
     'Vessel2', // </Vessel>
+
     'Sailing1', // <Sailing>
-
-
+    'DateSailing1', // <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">2022-08-14</Date>
+    'NameSailing1', // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ВЛАДИВОСТОК (РФ)</Name>
     'Sailing2', // </Sailing>
 
     'crewList2' // </CrewList>
@@ -79,8 +84,8 @@ var Shipmaster =  [`    <Shipmaster xmlns="urn:customs.ru:Information:TransportD
 var NationalityCode =  [`    <NationalityCode xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</NationalityCode>`];
 
 var Sailing =  [`  <Sailing>`, `  </Sailing>`];
-var DateSaling =  [`    <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Date>`];
-var NameSaling =  [`    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Name>`];
+var DateSailing =  [`    <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Date>`];
+var NameSailing =  [`    <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">`, `</Name>`];
 
 
 
@@ -234,7 +239,19 @@ for (indexTags = 0; indexTags < tagList.length; ++indexTags) {
         exampleData = exampleData + tagsByIndex[0].trimEnd()  + '\n';
     }
     
-    // --------here start
+    // <Date xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">2022-08-14</Date>
+    if (tagsByIndex === 'DateSailing1') {
+        tagsByIndex = DateSailing
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
+
+    // <Name xmlns="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.14.3">ВЛАДИВОСТОК (РФ)</Name>
+    if (tagsByIndex === 'NameSailing1') {
+        tagsByIndex = NameSailing
+        exampleData = exampleData + tagsByIndex[0].trimEnd() + dataFROMgrids[i] + tagsByIndex[1].trimEnd() + '\n'
+        i++
+    }
 
 
 
